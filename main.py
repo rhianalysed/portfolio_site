@@ -12,7 +12,10 @@ with col2:
     content = """Hi, welcome to RhiCoded!
 
 I'm excited about my journey transitioning into programming and diving deeper into the tech world. 
-Check out my GitHub to see the cool stuff I've been working on, from Excel dashboards to PowerBI visualizations, and Python projects.
-I'm all about exploring data and creating solutions with SQL and Python.
+
+Please feel free to have a look at some apps I have created using Python
     """
     st.write(content)
+
+content2 = "Below find some apps I have coded in Python:"
+st.write(content2)
