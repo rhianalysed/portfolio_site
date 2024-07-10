@@ -20,7 +20,7 @@ I'm a Python Programmer who is transitioning into the world of tech.
 content2 = "Below find some apps I have coded in Python (and yes, this website has been coded with Python):"
 st.write(content2)
 
-col3, col4 = st.columns(2)
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pd.read_csv('data.csv', sep=';')
 
